@@ -1,0 +1,12 @@
+﻿apps/frontend/app/(dashboard)/dashboard/page.tsx(2,29): error TS2307: Cannot find module '@backend/services/db/project-service' or its corresponding type declarations.
+apps/frontend/app/(dashboard)/dashboard/page.tsx(14,42): error TS7006: Parameter 'p' implicitly has an 'any' type.
+apps/frontend/app/(dashboard)/dashboard/page.tsx(15,40): error TS7006: Parameter 'p' implicitly has an 'any' type.
+apps/frontend/app/(dashboard)/dashboard/page.tsx(45,43): error TS7006: Parameter 'project' implicitly has an 'any' type.
+apps/frontend/app/(dashboard)/dashboard/page.tsx(94,41): error TS7006: Parameter 'project' implicitly has an 'any' type.
+apps/frontend/app/(dashboard)/layout.tsx(3,29): error TS2307: Cannot find module '@backend/services/db/project-service' or its corresponding type declarations.
+apps/frontend/app/api/projects/[id]/route.ts(2,28): error TS2307: Cannot find module '@backend/services/db/project-service' or its corresponding type declarations.
+apps/frontend/app/api/projects/route.ts(2,31): error TS2307: Cannot find module '@backend/services/db/project-service' or its corresponding type declarations.
+apps/frontend/app/api/tasks/complete-human/route.ts(2,35): error TS2307: Cannot find module '@backend/services/db/task-service' or its corresponding type declarations.
+apps/frontend/app/api/tasks/status/route.ts(2,34): error TS2307: Cannot find module '@backend/services/db/task-service' or its corresponding type declarations.
+modules/workflows/project-creation.ts(2,44): error TS2307: Cannot find module '../../ai/engine/validation/structuring-engine' or its corresponding type declarations.
+modules/workflows/task-execution.ts(4,35): error TS2307: Cannot find module '../../ai/engine/execution/execution-engine' or its corresponding type declarations.

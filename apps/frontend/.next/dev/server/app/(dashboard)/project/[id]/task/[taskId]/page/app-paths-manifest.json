@@ -1,0 +1,3 @@
+{
+  "/(dashboard)/project/[id]/task/[taskId]/page": "app/(dashboard)/project/[id]/task/[taskId]/page.js"
+}
