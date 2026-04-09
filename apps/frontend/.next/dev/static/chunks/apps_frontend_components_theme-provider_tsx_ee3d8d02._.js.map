@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/indianic/OneDrive/Documents/ai%20kickoff%20workfow%20engine/apps/frontend/components/theme-provider.tsx"],"sourcesContent":["\"use client\";\r\n\r\nimport * as React from \"react\";\r\nimport { ThemeProvider as NextThemesProvider } from \"next-themes\";\r\nimport { type ThemeProviderProps } from \"next-themes\";\r\n\r\nexport function ThemeProvider({ children, ...props }: ThemeProviderProps) {\r\n    return <NextThemesProvider {...props}>{children}</NextThemesProvider>;\r\n}\r\n"],"names":[],"mappings":";;;;;AAGA;AAHA;;;AAMO,SAAS,cAAc,EAAE,QAAQ,EAAE,GAAG,OAA2B;IACpE,qBAAO,6LAAC,oKAAkB;QAAE,GAAG,KAAK;kBAAG;;;;;;AAC3C;KAFgB"}}]
-}
