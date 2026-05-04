@@ -1,5 +1,0 @@
-{
-  "framework": "nextjs",
-  "buildCommand": "npm install mongodb && npm run build",
-  "outputDirectory": "apps/frontend/.next"
-}
