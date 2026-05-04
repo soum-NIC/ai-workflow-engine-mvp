@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { ArrowRight, Zap, Target, Bot, CheckCircle } from 'lucide-react';
 import { BackgroundAnimation } from '@/components/ui/background-animation';
-
+import { VisionTrigger } from '@/components/home/vision-trigger';
 export default function LandingPage() {
   return (
     <div className="min-h-screen bg-background text-foreground flex flex-col items-center justify-center p-6 relative overflow-hidden font-sans">
@@ -98,6 +98,8 @@ export default function LandingPage() {
       <footer className="mt-24 text-xs tracking-widest text-muted-foreground/60 font-semibold z-10 animate-in fade-in duration-1000 delay-1000">
         © 2026 PLANPILOT TEAM COLLABORATION
       </footer>
+
+      <VisionTrigger />
     </div>
   );
 }
