@@ -2,7 +2,11 @@
   "name": "ai-workflow-engine-root",
   "private": true,
   "workspaces": [
-    "apps/*"
+    "apps/*",
+    "engine",
+    "infra",
+    "modules",
+    "shared"
   ],
   "scripts": {
     "dev": "npm run dev --workspace=frontend",
